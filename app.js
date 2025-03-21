@@ -14,10 +14,10 @@ $(document).ready(function () {
                         box.innerHTML = `
                             <div class="box">
                                 <div class="imgbox">
-                                    <img src="${item.photo_url}" alt="">
+                                    <img src="${item.img}" alt="">
                                 </div>
-                                <h1>${item.title}</h1>
-                                <h4>${item.description}</h4>
+                                <h1>${item.tit}</h1>
+                                <h4>${item.des}</h4>
                                 <div class="infobox">
                                     <div class="lbtn">Good</div>
                                     <div class="dbtn">Bad</div>
@@ -48,10 +48,10 @@ $(document).ready(function () {
                     box.innerHTML = `
                     <div class="box">
                         <div class="imgbox">
-                            <img src="${item.photo_url}" alt="">
+                            <img src="${item.img}" alt="">
                         </div>
-                        <h1>${item.title}</h1>
-                        <h4>${item.description}</h4>
+                        <h1>${item.tit}</h1>
+                        <h4>${item.des}</h4>
                         <div class="infobox">
                             <div class="lbtn">Good</div>
                             <div class="dbtn">Bad</div>

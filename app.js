@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     $(document).on('keypress', function (e) {
         if (e.which == 13) {
-            let url = `https://flask-api-six-snowy.vercel.app/news`
+            let url = ``
             async function mynews() {
                 let responce = await fetch(url)
                 let data = await responce.json()
@@ -35,7 +35,7 @@ $(document).ready(function () {
 
     $("h2").click(async function (e) {
         e.preventDefault();
-        let url = `https://flask-api-six-snowy.vercel.app/news`
+        let url = ``
 
             async function mynews() {
             let responce = await fetch(url);
